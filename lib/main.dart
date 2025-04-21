@@ -5,6 +5,7 @@ import 'package:flutter_project_for_n15/service.dart';
 import 'model.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MainApp());
 }
 
